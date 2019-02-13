@@ -4,3 +4,4 @@ require './lib/notebook.rb'
 note = Note.new("This is a note")
 notebook = Notebook.new
 notebook.addnote(note)
+notebook.addtag(note, tag)
